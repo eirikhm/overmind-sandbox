@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "jsxFactory": "createElement",
+    "allowJs": true,
+    "outDir": "dist",
+    "newLine": "LF",
+    "lib": ["dom", "es2017"],
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "pretty": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "esModuleInterop" :true
+  },
+  "exclude": ["node_modules", "dist", "es", "lib"],
+  "include": ["src"]
+}

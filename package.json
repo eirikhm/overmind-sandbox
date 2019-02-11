@@ -1,0 +1,36 @@
+{
+  "name": "sukker-entry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "overmind": "next",
+    "overmind-react": "next",
+    "react": "16.8.0-alpha.1",
+    "react-dom": "16.8.0-alpha.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-test-renderer": "^16.0.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5"
+  },
+  "scripts": {
+    "test": "jest --config=./jest.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "^10.14.2",
+    "yarn": "^1.12.3"
+  }
+}
