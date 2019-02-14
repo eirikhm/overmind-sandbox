@@ -8,9 +8,9 @@ import { Provider } from 'overmind-react';
 import { config } from '../../overmind/config';
 import { SomeComponent } from '../SomeComponent';
 
-describe('Grid', () => {
+describe('SomeComponent', () => {
 
-    test('shows empty screen', async () => {
+    test('Changes properly', async () => {
         const mock = createOvermindMock(config);
         const component = mount(
             <Provider value={mock}>
