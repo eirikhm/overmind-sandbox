@@ -3,7 +3,7 @@ import { createHook } from "overmind-react";
 
 import {
   IConfig,
-  TOnInitialize,
+  IOnInitialize,
   IAction,
   IOperator,
   IDerive,
@@ -14,7 +14,7 @@ import { config } from './config';
 type Config = IConfig<typeof config>
 
 
-export interface OnInitialize extends TOnInitialize<Config> { }
+export interface OnInitialize extends IOnInitialize<Config> { }
 
 export interface Action<Input = void> extends IAction<Config, Input> { }
 
