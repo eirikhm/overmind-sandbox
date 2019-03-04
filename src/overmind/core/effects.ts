@@ -3,7 +3,7 @@ class SomeEffect
 
     constructor()
     {
-        console.log('I AM CALLED');
+        
     }
 }
 
