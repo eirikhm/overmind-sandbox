@@ -1,9 +1,19 @@
 class SomeEffect
 {
-
     constructor()
     {
         
+    }
+
+    public rejectingMethod()
+    {
+        console.log('rejectingMethod invoked')
+        return new Promise(function(resolve, reject) {
+            setTimeout(function() {
+                console.log('rejectingMethod rejecting')
+              reject('foo');
+            }, 300);
+          });
     }
 }
 
